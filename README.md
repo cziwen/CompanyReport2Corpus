@@ -48,7 +48,7 @@ A modular pipeline for downloading, cleaning, and converting SEC company reports
   The orchestrator script that runs the full pipeline: fetches raw reports → cleans HTML → saves structured corpus.
 - **token_counter.py**  
   Token counting tool for estimating cost or batching API requests. Compatible with models like GPT, Claude, Qwen, etc.
-- **output/**  
+- **output/ (not showing at first)**  
   Directory where cleaned corpus data and any intermediate files are saved.
 - **README.md**
 
