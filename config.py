@@ -7,7 +7,7 @@ Generates individual text files per filing.
 # SEC EDGAR search-filings endpoint
 SEC_SEARCH_URL = 'https://www.sec.gov/search-filings'
 
-USER_AGENT = 'companyreport2corpus/1.0 chenziwenyyds@gmail.com'
+USER_AGENT = 'companyreport2corpus/1.0 yours@mail.com'
 
 # List of company tickers or CIK identifiers to fetch
 COMPANIES = [
