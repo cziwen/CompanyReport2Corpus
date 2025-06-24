@@ -6,7 +6,7 @@ A modular pipeline for downloading, cleaning, and converting SEC company reports
 
 ## Quick Start
 
-1. **Install requirements** (if needed):
+1. **Install requirements**:
    ```bash
    pip install -r requirements.txt 
     ```
@@ -25,7 +25,18 @@ A modular pipeline for downloading, cleaning, and converting SEC company reports
     
 4.	**Output**:
 -	Cleaned plain text corpus will be saved under the `output/` directory.
-    
+
+5. **count tokens**(optional):
+    ```bash
+    python token_counter.py
+    ```
+- Count the number of tokens in the output file path
+
+6. **convert txt to jsonl**(optional):
+    ```bash
+    python convert_txt2jsonl.py -f folder1 folder2 -o output.jsonl
+    ```
+- Convert txt files into single jsonl for continue pre-train or whatever
 
 ---
 
